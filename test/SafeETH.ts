@@ -46,7 +46,7 @@ describe('SafeETH', function () {
     );
   });
 
-  describe.only('SafeETH balance should decrease after burning', () => {
+  describe('SafeETH balance should decrease after burning', () => {
     it('should revert', async () => {
       let ex;
       try {
